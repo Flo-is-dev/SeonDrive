@@ -1,6 +1,6 @@
 # SeonDrive Frontend
 
-Un site web moderne et optimisé pour le SEO permettant de louer des voitures haut de gamme et écologiques. Ce projet utilise Next.js, TypeScript, Redux Toolkit, Styled Components, Framer Motion, et d'autres technologies modernes pour offrir une expérience utilisateur fluide et interactive.
+[en cours] Un site web moderne et optimisé pour le SEO permettant de louer des voitures haut de gamme et écologiques. Ce projet utilise Next.js, TypeScript, Redux Toolkit, Styled Components, Framer Motion, et d'autres technologies modernes pour offrir une expérience utilisateur fluide et interactive.
 
 ## Table des Matières
 
@@ -40,4 +40,35 @@ Ce projet est un site de location de voitures haut de gamme avec une attention p
 
    ```bash
    npm install
+   ```
+
+3. **Démarrer le Serveur de Développement :**
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Technologies Utilisées**
+
+   Next.js 14.2.8 : Framework React pour le rendu côté serveur et la génération statique.
+   TypeScript : Superset de JavaScript pour un typage statique.
+   Redux Toolkit : Gestion d'état globale simplifiée.
+   Styled Components : CSS-in-JS pour des composants stylisés.
+   Framer Motion : Bibliothèque d'animations pour des transitions et interactions fluides.
+   i18next : Internationalisation pour le support multi-langue.
+   Tailwind CSS (via shadCN) : Framework CSS utilitaire pour le style rapide et cohérent.
+
+5. **Structure du Projet**
+
+   ```bash
+   /src
+   ├── /app                  # Nouveau système de routage et de pages de Next.js 13+
+   ├── /components           # Composants réutilisables de l'application
+   ├── /data                 # Données mock utilisées en développement
+   ├── /i18n                 # Fichiers de configuration et de traduction pour l'internationalisation
+   ├── /pages                # Pages API ou pages spécifiques (optionnel avec /app)
+   ├── /redux                # Configuration du store et slices Redux
+   ├── /styles               # Fichiers de style global avec Styled Components
+   ├── /utils                # Fonctions utilitaires réutilisables
+   └── /tests                # Tests unitaires, d'intégration, et e2e
    ```
