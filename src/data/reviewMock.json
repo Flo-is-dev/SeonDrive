@@ -1,0 +1,17 @@
+[
+    {
+      "carId": "64f1a8f97c5318262f333a1b",  
+      "userId": "64f1a9b27c5318262f333a1e", 
+      "rating": 5,
+      "comment": "La Tesla Model 3 est incroyable ! Très confortable et totalement silencieuse. La fonction Autopilot est un grand plus.",
+      "createdAt": "2023-08-29T10:00:00.000Z"
+    },
+    {
+      "carId": "64f1a8f97c5318262f333a1c",  
+      "userId": "64f1a9b27c5318262f333a1f", 
+      "rating": 4,
+      "comment": "Bonne voiture, assez économique et facile à conduire. Quelques problèmes mineurs avec le système Bluetooth.",
+      "createdAt": "2023-08-28T14:30:00.000Z"
+    }
+  ]
+  
