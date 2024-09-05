@@ -48,15 +48,14 @@ Ce projet est un site de location de voitures haut de gamme avec une attention p
    npm run dev
    ```
 
-4. **Technologies Utilisées**
+## Technologies Utilisées\*\*
 
-   Next.js 14.2.8 : Framework React pour le rendu côté serveur et la génération statique.
-   TypeScript : Superset de JavaScript pour un typage statique.
-   Redux Toolkit : Gestion d'état globale simplifiée.
-   Styled Components : CSS-in-JS pour des composants stylisés.
-   Framer Motion : Bibliothèque d'animations pour des transitions et interactions fluides.
-   i18next : Internationalisation pour le support multi-langue.
-   Tailwind CSS (via shadCN) : Framework CSS utilitaire pour le style rapide et cohérent.
+- **Next.js 14.2.8**: Framework React pour le rendu côté serveur et la génération statique.
+- **TypeScript** : Superset de JavaScript pour un typage statique.
+- \***\*Redux Toolkit** : Gestion d'état globale simplifiée.
+- **Styled Components** : CSS-in-JS pour des composants stylisés.
+- **Framer Motion** : Bibliothèque d'animations pour des transitions et interactions fluides.
+- **i18next** : Internationalisation pour le support multi-langue.
 
 5. **Structure du Projet**
 
