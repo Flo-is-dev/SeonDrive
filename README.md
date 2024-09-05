@@ -19,12 +19,12 @@ Ce projet est un site de location de voitures haut de gamme avec une attention p
 
 ## Fonctionnalités
 
-- **Réservation de Véhicules** : Sélection de dates, choix de voitures, et processus de paiement sécurisé.
+- **Réservation de Véhicules** : Sélection de dates, choix de voitures, et processus de paiement sécurisé (stripe).
 - **Filtrage Avancé** : Filtrage par type de voiture (électrique, hybride), marque, modèle, et plus.
-- **Pages Détails des Voitures** : Informations détaillées sur chaque véhicule avec des images haute résolution.
-- **Blog sur la Mobilité Écologique** : Articles de blog pour attirer du trafic SEO et informer sur les dernières tendances.
-- **Animations Fluides** : Animations modernes utilisant Framer Motion pour améliorer l'expérience utilisateur.
-- **Support Multi-langue** : Utilisation de i18n pour l'internationalisation.
+- **Pages Détails des Voitures** : Informations détaillées sur chaque véhicule.
+- **Blog sur la Mobilité** : Articles de blog pour attirer du trafic SEO et informer sur les dernières tendances.
+- **Animations Fluides** : Animations entre les pages utilisant Framer Motion pour améliorer l'expérience utilisateur.
+- **Support Multi-langue** : Utilisation de i18n pour gestion des langues (anglais/francais/coréen).
 
 ## Installation
 
@@ -48,7 +48,7 @@ Ce projet est un site de location de voitures haut de gamme avec une attention p
    npm run dev
    ```
 
-## Technologies Utilisées
+## Technologies Utiliséesgit
 
 - **Next.js 14.2.8**: Framework React pour le rendu côté serveur et la génération statique.
 - **TypeScript** : Superset de JavaScript pour un typage statique.
