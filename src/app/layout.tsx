@@ -1,40 +1,42 @@
+"use client";
+
 import Header from "@/components/layout/Header";
-import type { Metadata } from "next";
 import localFont from "next/font/local";
 import GlobalStyles from "@/styles/GlobaleStyles";
+import styled from "styled-components";
+
+const HeaderLayout = styled.header`
+  background-color: tomato;
+  padding: 1rem;
+`;
 
 const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
+  src: "./fonts/GeistVF.woff", 
   variable: "--font-geist-sans",
   weight: "100 900",
 });
+
 const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
+  src: "./fonts/GeistMonoVF.woff", 
   variable: "--font-geist-mono",
   weight: "100 900",
 });
 
-export const metadata: Metadata = {
-  title: "SeonDrive",
-  description: "Un large choix de voiture respectueuses de l'environment",
-};
-
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <header
-            style={{backgroundColor: "tomato",padding:"1rem"}}>
-            <Header />
-        </header>
+    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body>
         <GlobalStyles />
+        <HeaderLayout>
+          <Header />
+        </HeaderLayout>
         <main>{children}</main>
-        <footer style={{backgroundColor: "lightgreen",padding:"1rem"}}>
-            Footer
+        <footer style={{ backgroundColor: "lightgreen", padding: "1rem" }}>
+          Footer
         </footer>
       </body>
     </html>
