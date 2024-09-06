@@ -10,6 +10,7 @@ const NextI18NextConfig = {
     typeof window === "undefined"
       ? path.resolve("./public/locales")
       : "/public/locales",
+  localeDetection: false,
 };
 
 export default NextI18NextConfig;
