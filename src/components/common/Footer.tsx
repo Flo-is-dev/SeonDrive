@@ -51,7 +51,7 @@ const Footer = () => {
   return (
     <Section>
         <div>
-            <h3>SeonDrive</h3>
+            <h4>SeonDrive</h4>
             <p>Via Callicratide 36</p>
             <small>Roisson, Aosta(AOI), 111 000</small>
             <small>032 0575190</small>

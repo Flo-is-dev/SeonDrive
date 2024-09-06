@@ -35,6 +35,12 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
+const OPTIEdgar = localFont({
+  src: "./fonts/OPTIEdgar-Extended.otf", 
+  variable: "--font-OPTI",
+  weight: "100 900",
+});
+
 const FooterLayout = styled.footer`
  min-height:350px;
  background-color: var(--background-gray-dark);
@@ -47,7 +53,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html lang="en" className={`${geistSans.variable} ${geistMono.variable} ${OPTIEdgar.variable}`}>
       <body>
         <GlobalStyles />
         <HeaderLayout>

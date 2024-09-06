@@ -18,6 +18,7 @@ const GlobalStyles = createGlobalStyle`
          /* Variables de polices */
         --font-geist-sans: 'Geist Sans', sans-serif;
         --font-geist-mono: 'Geist Mono', monospace;
+        --font-Edgar: 'OPTIEdgar', monospace;
     }
 
   * {
@@ -28,7 +29,7 @@ const GlobalStyles = createGlobalStyle`
   }
   
   h1 , h2 {
-    font-family: 'Geist Mono', monospace;
+    font-family: var(--font-Edgar), monospace;
   }
 
   a {
