@@ -7,6 +7,7 @@ const Btn = styled.button`
   border-radius: 20px;
   color:white;
   font-weight:bold;
+  cursor:pointer;
 `;
 const LanContainer = styled.div`
  flex:1;

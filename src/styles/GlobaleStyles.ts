@@ -2,16 +2,38 @@
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
+    :root {
+         /* Variables de couleurs */
+        --primary-champagne: #F4C6A4;
+        --primary-gray: #282828;
+        --primary-green: #425A4D;
+        --secondary-green: #2E3B34;
+        --background-champagne-dark: #ECE6E4;
+        --background-champagne-light: #FFF7F4;
+        --background-gray-dark: #121212;
+        --background-gray-light: #202020;
+        --text-color: #010101;
+        --text-color-gray: #CECECE;
+
+         /* Variables de polices */
+        --font-geist-sans: 'Geist Sans', sans-serif;
+        --font-geist-mono: 'Geist Mono', monospace;
+    }
+
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Geist Mono', monospace;
   }
 
   a {
     color: inherit;
     text-decoration: none;
+  }
+
+  .activeNav {
+    color:var(--primary-champagne) !important;
   }
 
 `;

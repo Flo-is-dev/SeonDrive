@@ -16,7 +16,7 @@ const Ul = styled.ul`
 const navLinks = [
     {name:"About",href:"/about"},
     {name:"Vehicules",href:"/vehicules"},
-    {name:"Booking",href:"/booking"},
+    {name:"Blog",href:"/blog"},
     {name:"Contacts",href:"/contacts"},
 
 ]
@@ -31,7 +31,7 @@ const Header = () => {
             const isActive = pathname ? pathname.startsWith(link.href) : false
             return (
                 <li key={link.name}>
-                    <Link href={link.href} className={isActive ? "text-green-500" : "text-blue-500"}> 
+                    <Link href={link.href} className={isActive ? "activeNav" : ""}> 
                         {link.name}
                     </Link>
                 </li>
