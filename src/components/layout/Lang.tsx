@@ -8,10 +8,17 @@ const Btn = styled.button`
   color:white;
   font-weight:bold;
 `;
+const LanContainer = styled.div`
+ flex:1;
+ text-align: end;
+`;
 
 const Lang = () => {
   return (
-    <Btn>Lang</Btn>
+    <LanContainer>
+        <Btn>Lang</Btn>
+    </LanContainer>
+    
   )
 }
 export default Lang

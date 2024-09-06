@@ -8,11 +8,17 @@ import styled from "styled-components";
 import Lang from "@/components/layout/Lang";
 
 const HeaderLayout = styled.header`
-  background-color: tomato;
   padding: 1rem;
+  width: 100%;
+  padding-inline: 4rem;
   display:flex;
   justify-content: space-between;
   align-items: center;
+  position: absolute;
+`;
+
+const Nav = styled.nav`
+  flex:1;
 `;
 
 const geistSans = localFont({
@@ -37,9 +43,9 @@ export default function RootLayout({
       <body>
         <GlobalStyles />
         <HeaderLayout>
-          <nav>
+          <Nav>
                 <Header />
-          </nav>
+          </Nav>
           <Image
             src="/logo-seondrive.png"
             width={60}

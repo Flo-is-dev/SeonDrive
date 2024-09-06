@@ -8,7 +8,9 @@ const Ul = styled.ul`
   justify-content: space-between;
   align-items: center;
   list-style-type: none;
-  gap:10px;
+  gap:4vw;
+  color: white;
+  width: fit-content;
 `;
 
 const navLinks = [
