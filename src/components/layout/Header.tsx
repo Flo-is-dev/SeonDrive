@@ -1,11 +1,21 @@
 'use client'
 import Link from "next/link"
 import { usePathname } from "next/navigation"
+import styled from "styled-components";
+
+const Ul = styled.ul`
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  gap:10px;
+`;
 
 const navLinks = [
-    { name:"cv",href:"/cv"},
-    {name:"contact",href:"/contact"},
-    {name:"products",href:"/products"},
+    {name:"About",href:"/about"},
+    {name:"Vehicules",href:"/vehicules"},
+    {name:"Booking",href:"/booking"},
+    {name:"Contacts",href:"/contacts"},
 
 ]
 
@@ -13,7 +23,7 @@ const Header = () => {
   const pathname = usePathname()
 
   return (
-    <ul>
+    <Ul>
         {navLinks.map(link => {
             // On vérifie si pathname n'est pas null avant d'utiliser startsWith
             const isActive = pathname ? pathname.startsWith(link.href) : false
@@ -25,7 +35,7 @@ const Header = () => {
                 </li>
             )
         })}
-    </ul>
+    </Ul>
   )
 }
 export default Header

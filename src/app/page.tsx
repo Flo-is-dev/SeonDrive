@@ -1,10 +1,12 @@
+import Hero from "@/components/common/Hero";
 import ServerLayout from "./ServerLayout"; 
 
 export default function Home() {
   return (
-    <div>
+    <>
+        <Hero />
       <p>corps du site</p>
-    </div>
+    </>
   );
 }
 

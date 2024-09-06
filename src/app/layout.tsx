@@ -2,12 +2,17 @@
 
 import Header from "@/components/layout/Header";
 import localFont from "next/font/local";
+import Image from "next/image";
 import GlobalStyles from "@/styles/GlobaleStyles";
 import styled from "styled-components";
+import Lang from "@/components/layout/Lang";
 
 const HeaderLayout = styled.header`
   background-color: tomato;
   padding: 1rem;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
 `;
 
 const geistSans = localFont({
@@ -32,7 +37,16 @@ export default function RootLayout({
       <body>
         <GlobalStyles />
         <HeaderLayout>
-          <Header />
+          <nav>
+                <Header />
+          </nav>
+          <Image
+            src="/logo-seondrive.png"
+            width={60}
+            height={60}
+            alt="Picture of the author"
+            />
+          <Lang />
         </HeaderLayout>
         <main>{children}</main>
         <footer style={{ backgroundColor: "lightgreen", padding: "1rem" }}>
