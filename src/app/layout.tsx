@@ -6,6 +6,8 @@ import Image from "next/image";
 import GlobalStyles from "@/styles/GlobaleStyles";
 import styled from "styled-components";
 import Lang from "@/components/layout/Lang";
+import Credits from "@/components/common/Credits";
+import Footer from "@/components/common/Footer";
 
 const HeaderLayout = styled.header`
   padding: 1rem;
@@ -33,6 +35,12 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
+const FooterLayout = styled.footer`
+ min-height:400px;
+ background-color: var(--background-gray-dark);
+ position: relative;
+`;
+
 export default function RootLayout({
   children,
 }: {
@@ -55,9 +63,10 @@ export default function RootLayout({
           <Lang />
         </HeaderLayout>
         <main>{children}</main>
-        <footer style={{ backgroundColor: "lightgreen", padding: "1rem" }}>
-          Footer
-        </footer>
+        <FooterLayout>
+            <Footer />
+            <Credits />
+        </FooterLayout >
       </body>
     </html>
   );
