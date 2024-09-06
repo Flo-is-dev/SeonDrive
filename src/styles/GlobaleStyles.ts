@@ -24,12 +24,21 @@ const GlobalStyles = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  h1 , h2 {
     font-family: 'Geist Mono', monospace;
   }
 
   a {
     color: inherit;
     text-decoration: none;
+  }
+
+  p,a {
+    font-size: 1rem;
+    font-weight:300;
   }
 
   .activeNav {

@@ -12,7 +12,7 @@ const Section = styled.section`
 align-items: center;
 
   p {
-    color:white;
+    color: var(--text-color-gray);
   }
 `;
 

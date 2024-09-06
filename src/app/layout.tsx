@@ -36,7 +36,7 @@ const geistMono = localFont({
 });
 
 const FooterLayout = styled.footer`
- min-height:400px;
+ min-height:350px;
  background-color: var(--background-gray-dark);
  position: relative;
 `;

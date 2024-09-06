@@ -3,14 +3,14 @@ import styled from "styled-components";
 import Image from "next/image";
 
 const Section = styled.section`
-  height:75vh;
+  min-height:75vh;
   padding: 4rem;
   display:flex;
   justify-content: space-around;
 `;
 
 const TxtContainer = styled.div`
-width: 33%;
+width: 30%;
   h2 {
     font-size: clamp(2rem,6vw,4.5rem);
   }
@@ -21,6 +21,7 @@ width: 33%;
 `;
 const ImgContainer = styled.div`
     width: 55%;
+    height: 100%;
     display:grid;
     gap: 2rem;
     grid-template-columns: repeat(2, 1fr);
@@ -34,18 +35,21 @@ const ImgContainer = styled.div`
         grid-area: fe;
         overflow:hidden;
         border-radius:20px;
+        max-height:400px;
     }
     div:has(img):nth-child(1) img {
-        object-fit: contain;
-       
+        object-fit: cover;
+       height: 100% !important;
+      
     }
     div:has(img):last-child {
-        grid-area: ro;
-        object-fit: contain;
+        grid-area: ro; 
     }
     div:has(img):last-child img {
-        object-fit: contain;
+        object-fit: cover;
         border-radius:20px;
+       height: 100% !important;
+
     }
 `;
 const TxtCard = styled.div`
@@ -58,7 +62,7 @@ const TxtCard = styled.div`
     color:white;
     grid-area: ca;
     font-size:3rem;
-    padding-block:2rem;
+    padding-block:1rem;
     small {
     font-size:1rem;
         margin-top:1rem;
@@ -78,7 +82,7 @@ const About = () => {
                 <Image
                 src="/about/ferrari.jpg"
                 width={400}
-                height={350}
+                height={300}
                 alt="Picture of the author"
                 layout="responsive"
                 />
