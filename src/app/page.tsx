@@ -1,11 +1,12 @@
 import Hero from "@/components/common/Hero";
 import ServerLayout from "./ServerLayout"; 
+import About from "@/components/common/About";
 
 export default function Home() {
   return (
     <>
         <Hero />
-      <p>corps du site</p>
+        <About />
     </>
   );
 }
