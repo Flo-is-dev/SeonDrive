@@ -1,6 +1,6 @@
 "use client"
 import styled from "styled-components";
-import { useTranslation } from 'react-i18next';
+
 
 const Section = styled.section`
   background: url("/home/hero-bg.jpg") center/cover;
@@ -20,11 +20,10 @@ const Section = styled.section`
 `;
 
 const Hero = () => {
-    const { t } = useTranslation('common');
 
   return (
     <Section>
-        <h1>{t('welcome')}</h1>
+        <h1>italy</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quisquam qui architecto quia magni harum assumenda sit aliquid neque mollitia!</p>
         
     </Section>

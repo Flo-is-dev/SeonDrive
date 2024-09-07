@@ -1,11 +1,13 @@
-import NextI18NextConfig from "./next-i18next.config.mjs";
+import createNextIntlPlugin from "next-intl/plugin";
 
+const withNextIntl = createNextIntlPlugin();
+
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
   compiler: {
     styledComponents: true, // Active le support de Styled Components avec SWC
   },
-  i18n: NextI18NextConfig.i18n,
 };
 
-export default nextConfig;
+export default withNextIntl(nextConfig);
