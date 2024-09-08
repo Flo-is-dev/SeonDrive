@@ -1,6 +1,7 @@
 "use client"
 import styled from "styled-components";
 import { useTranslations } from 'next-intl';
+import Btn from "../ui/Btn";
 
 const Section = styled.section`
   background: url("/home/hero-bg-copie.jpg") center/cover;
@@ -26,7 +27,11 @@ const Hero = () => {
 
   return (
     <Section>
-        <h1>{t('heroTitle')}</h1>
+        <div>
+            <h1>{t('heroTitle')}</h1>
+            <Btn link={"/"} content={t('btnRent')}/>
+        </div>
+        
         <p>{t('heroTxt')}</p>
         
     </Section>

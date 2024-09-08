@@ -13,6 +13,7 @@ import Image from "next/image";
 import About from '@/components/common/About';
 import Blog from '@/components/common/Blog';
 import Subscribe from '@/components/common/Subscribe';
+import Promo from '@/components/common/Promo';
 
 const HeaderLayout = styled.header`
   padding: 1rem;
@@ -75,6 +76,7 @@ export default function HomePage() {
             <main>
                 <Hero />
                 <About />
+                <Promo />
                 <Blog />
                 <Subscribe/>
             </main>

@@ -2,6 +2,8 @@ import styled from "styled-components";
 import { useTranslations, useLocale } from 'next-intl';
 import Link from "next/link";
 import Image from "next/image";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 const Section = styled.section`
   min-height: 60vh;
@@ -9,6 +11,7 @@ const Section = styled.section`
 
   h2 {
     font-size: clamp(1rem, 3vw, 1.1rem);
+    margin-right: 2rem
   }
   > h2 {
     font-size: clamp(2rem, 6vw, 4.5rem);
@@ -25,7 +28,7 @@ const BlogCardContainer = styled.div`
 
 const ImageContainer = styled.div`
   position: relative;
-  height: 210px;
+  height: 250px;
   width: 100%;
   overflow: hidden;
   border-radius: 18px;
@@ -41,11 +44,29 @@ const Time = styled.time`
   background-color: #F4C6A4;
   font-size: 14px;
   border-radius: 8px;
-  padding: 5px 12px;
+  padding: 6px 12px;
   position: absolute;
   bottom: 9%;
   left: 7%;
   font-weight: 500;
+`;
+
+const Arrow = styled.div`
+  background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    padding: 0px;
+    position: absolute;
+    top: 6%;
+    right: 5%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+
+    svg {
+        font-size:1rem;
+    }
 `;
 
 const Blog = () => {
@@ -77,6 +98,9 @@ const Blog = () => {
                   layout="responsive"
                 />
                 <Time dateTime={article.date}>{article.date}</Time>
+                <Arrow>
+                    <FontAwesomeIcon icon={faArrowRight} size="lg" />
+                </Arrow>
               </ImageContainer>
               <h2>{article.title}</h2>
               <Link href={link} style={{ marginTop: "auto" }}>See Article</Link>

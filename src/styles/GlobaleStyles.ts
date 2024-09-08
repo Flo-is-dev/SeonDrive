@@ -34,6 +34,7 @@ const GlobalStyles = createGlobalStyle`
 
   a {
     color: inherit;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
 
   nav a, footer a {
