@@ -8,19 +8,24 @@ export const metadata: Metadata = {
     description: "Découvrez notre actualité"
 }
 
+
 const BlogPage = () => {
   return (
-    <>
-    {articles.map((article: Article) => {
-        const link = `blog/${article.id}`
-        return (
-            <div key={article.id}>
-                <h2>{article.title} le {article.date} par {article.author}</h2>
-                <Link href={link}>Voir l'article</Link>
-            </div>
-        )
-    })}
-    </>
+    <main>
+
+        <section style={{margin:"4rem auto",display:"grid",gridTemplateColumns:"repeat(3,1fr)",gap:"2rem",maxWidth:"1050px"}}>
+            {articles.map((article: Article) => {
+                const link = `blog/${article.id}`
+                return (
+                    <div key={article.id}>
+                        <h2>{article.title} le {article.date} par {article.author}</h2>
+                        <Link href={link}>Voir l'article</Link>
+                    </div>
+                )
+            })}
+        </section>
+    
+    </main>
   )
 }
 export default BlogPage

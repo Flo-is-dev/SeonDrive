@@ -71,10 +71,12 @@ export default function HomePage() {
           <Lang />
         </HeaderLayout>
         
-            <Hero />
-            <About />
-            <Blog />
-
+            <main>
+                <Hero />
+                <About />
+                <Blog />
+            </main>
+            
         <FooterLayout>
           <Footer />
           <Credits />
