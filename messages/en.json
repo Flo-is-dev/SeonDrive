@@ -8,6 +8,9 @@
       "heroTitle": "Luxury car rental in italy",
       "heroTxt": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus nemo sapiente facere culpa laudantium sequi, quo sunt non enim! Sequi odit ipsa sed consectetur libero ab officiis aperiam eos est."
     },
+    "Blog": {
+        "blogLink": "Acceder au blog"
+    },
     "Footer": {
       "foot": "Foot foot"
     }

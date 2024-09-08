@@ -11,6 +11,7 @@ import GlobalStyles from "@/styles/GlobaleStyles";
 import styled from "styled-components";
 import Image from "next/image";
 import About from '@/components/common/About';
+import Blog from '@/components/common/Blog';
 
 const HeaderLayout = styled.header`
   padding: 1rem;
@@ -72,6 +73,7 @@ export default function HomePage() {
         
             <Hero />
             <About />
+            <Blog />
 
         <FooterLayout>
           <Footer />
