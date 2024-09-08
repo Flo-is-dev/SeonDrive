@@ -77,7 +77,7 @@ export default function HomePage() {
                 <Hero />
                 <About />
                 <Promo />
-                <Blog />
+                <Blog filtered={true} />
                 <Subscribe/>
             </main>
             

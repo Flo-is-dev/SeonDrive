@@ -1,3 +1,4 @@
+'use client'
 import styled from "styled-components";
 import { useTranslations, useLocale } from 'next-intl';
 import Link from "next/link";
@@ -69,7 +70,11 @@ const Arrow = styled.div`
     }
 `;
 
-const Blog = () => {
+interface BlogProps {
+    filtered: boolean;
+  }
+
+const Blog: React.FC<BlogProps> = ({filtered}) => {
   const t = useTranslations('blog'); 
   const locale = useLocale();
 
@@ -84,9 +89,12 @@ const Blog = () => {
       <div style={{ margin: "4rem auto", display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: "3rem" }}>
         {translatedArticles.map((article) => {
           const link = `/${locale}/blog/${article.id}`; 
-          if (article.id < translatedArticles.length - 2) {
+          if (filtered) {
+            if (article.id < translatedArticles.length - 2) {
             return null;  
           }
+          }
+          
           return (
             <BlogCardContainer key={article.id}>
               <ImageContainer>
