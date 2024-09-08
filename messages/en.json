@@ -1,0 +1,14 @@
+{   "navigation": {
+        "about": "About",
+        "vehicules": "Vehicles",
+        "blog": "Blog",
+        "contacts": "Contacts"
+    },
+    "HomePage": {
+      "heroTitle": "Luxury car rental in italy",
+      "heroTxt": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus nemo sapiente facere culpa laudantium sequi, quo sunt non enim! Sequi odit ipsa sed consectetur libero ab officiis aperiam eos est."
+    },
+    "Footer": {
+      "foot": "Foot foot"
+    }
+  }
