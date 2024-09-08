@@ -29,11 +29,14 @@ const GlobalStyles = createGlobalStyle`
   }
   
   h1 , h2 {
-    font-family: var(--font-Edgar), monospace;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
   }
 
   a {
     color: inherit;
+  }
+
+  nav a, footer a {
     text-decoration: none;
   }
 

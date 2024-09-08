@@ -1,8 +1,9 @@
-{   "navigation": {
-        "about": "A propos",
-        "vehicules": "Véhicules",
-        "blog": "Blog",
-        "contacts": "Contacts"
+{
+    "navigation": {
+      "about": "A propos",
+      "vehicules": "Véhicules",
+      "blog": "Blog",
+      "contacts": "Contacts"
     },
     "HomePage": {
       "heroTitle": "Location de voiture de luxe en Italie",
@@ -10,5 +11,186 @@
     },
     "Footer": {
       "foot": "Foot foot"
+    },
+    "blog": {
+      "blogLink": "Tout voir",
+      "articles": {
+        "article1": {
+            "id": 1,
+            "title": "L'impact des voitures électriques sur l'environnement",
+            "description": "Les voitures électriques jouent un rôle essentiel dans la réduction des émissions de gaz à effet de serre, mais leur impact environnemental ne se limite pas à zéro...",
+            "author": "Jean Dupont",
+            "date": "2022-01-15"
+        },
+        "article2": {
+            "id": 2,
+            "title": "Les innovations dans les transports écologiques",
+            "description": "L'industrie du transport connaît une transformation rapide grâce aux innovations dans les technologies écologiques...",
+            "author": "Marie Martin",
+            "date": "2022-05-20"
+        },
+        "article3": {
+            "id": 3,
+            "title": "L'avenir de l'hydrogène dans l'industrie automobile",
+            "description": "L'hydrogène est souvent présenté comme le carburant du futur, capable de révolutionner l'industrie automobile...",
+            "author": "Luc Leroy",
+            "date": "2022-09-05"
+        },
+        "article4": {
+            "id": 4,
+            "title": "Les meilleures voitures hybrides de 2024",
+            "description": "Les voitures hybrides continuent d'évoluer, combinant des moteurs à combustion interne avec des moteurs électriques...",
+            "author": "Sophie Petit",
+            "date": "2022-12-01"
+        },
+        "article5": {
+            "id": 5,
+            "title": "La mobilité partagée : une solution pour les villes durables",
+            "description": "La mobilité partagée devient de plus en plus populaire dans les grandes villes du monde entier comme un moyen de réduire la congestion et les émissions de carbone...",
+            "author": "Pierre Blanc",
+            "date": "2023-03-10"
+        },
+        "article6": {
+            "id": 6,
+            "title": "Les défis de la production de batteries écologiques",
+            "description": "La production de batteries pour véhicules électriques présente des défis environnementaux et éthiques considérables...",
+            "author": "Elise Dupuis",
+            "date": "2023-06-25"
+        },
+        "article7": {
+            "id": 7,
+            "title": "Comment réduire l'empreinte carbone de votre véhicule",
+            "description": "Réduire l'empreinte carbone de votre véhicule ne nécessite pas toujours de passer à un modèle électrique...",
+            "author": "Nicolas Moreau",
+            "date": "2023-09-30"
+        },
+        "article8": {
+            "id": 8,
+            "title": "L'essor des vélos électriques en milieu urbain",
+            "description": "Les vélos électriques, ou e-bikes, révolutionnent la mobilité urbaine, offrant une alternative écologique et pratique aux voitures et aux transports en commun...",
+            "author": "Claire Richard",
+            "date": "2023-11-15"
+        },
+        "article9": {
+            "id": 9,
+            "title": "Les voitures autonomes : une révolution écologique ?",
+            "description": "Les voitures autonomes, également connues sous le nom de véhicules sans conducteur, pourraient transformer non seulement la manière dont nous nous déplaçons, mais aussi leur impact sur l'environnement...",
+            "author": "Julien Fabre",
+            "date": "2024-02-05"
+        },
+        "article10": {
+            "id": 10,
+            "title": "L'importance de l'infrastructure de recharge pour les voitures électriques",
+            "description": "Une infrastructure de recharge bien développée est cruciale pour l'adoption généralisée des véhicules électriques (VE)...",
+            "author": "Laura Moulin",
+            "date": "2024-05-10"
+        },
+        "article11": {
+            "id": 11,
+            "title": "Les voitures solaires : mythe ou réalité ?",
+            "description": "Les voitures solaires ont longtemps été perçues comme une technologie futuriste, mais elles commencent à devenir une réalité tangible grâce aux avancées récentes...",
+            "author": "Antoine Lambert",
+            "date": "2024-08-20"
+        },
+        "article12": {
+            "id": 12,
+            "title": "Comment les transports publics peuvent-ils devenir plus écologiques ?",
+            "description": "Les transports publics jouent un rôle crucial dans la réduction des émissions de gaz à effet de serre en diminuant le nombre de véhicules personnels sur la route...",
+            "author": "Isabelle Girard",
+            "date": "2024-10-25"
+        },
+        "article13": {
+            "id": 13,
+            "title": "Les voitures connectées et leur impact sur l'efficacité énergétique",
+            "description": "Les voitures connectées, équipées de technologies de communication et de capteurs avancés, transforment non seulement l'expérience de conduite, mais ont également un impact significatif sur l'efficacité énergétique...",
+            "author": "Marc Dubois",
+            "date": "2025-01-10"
+        },
+        "article14": {
+            "id": 14,
+            "title": "Les nouvelles réglementations sur les émissions de CO2 en Europe",
+            "description": "Les nouvelles réglementations européennes sur les émissions de CO2 visent à encourager une transition plus rapide vers des véhicules à faibles émissions et à zéro émission...",
+            "author": "Émilie Roche",
+            "date": "2025-03-15"
+        },
+        "article15": {
+            "id": 15,
+            "title": "Les alternatives aux carburants fossiles pour les transports",
+            "description": "La recherche d'alternatives aux carburants fossiles est devenue une priorité pour réduire les émissions de gaz à effet de serre et atténuer le changement climatique...",
+            "author": "Vincent Perrin",
+            "date": "2025-05-30"
+        },
+        "article16": {
+            "id": 16,
+            "title": "Le covoiturage : une solution verte et économique",
+            "description": "Le covoiturage est de plus en plus considéré comme une solution viable pour réduire la congestion urbaine et les émissions de gaz à effet de serre...",
+            "author": "Caroline Bernard",
+            "date": "2025-07-12"
+        },
+        "article17": {
+            "id": 17,
+            "title": "Comment les constructeurs automobiles s'adaptent au changement climatique",
+            "description": "Face au changement climatique, les constructeurs automobiles sont contraints de repenser leurs modèles de production et de conception...",
+            "author": "Paul Mercier",
+            "date": "2025-09-05"
+        },
+        "article18": {
+            "id": 18,
+            "title": "Les avantages des pneus écologiques pour les voitures",
+            "description": "Les pneus écologiques, conçus pour réduire la résistance au roulement, sont en train de devenir une composante essentielle des véhicules modernes...",
+            "author": "Aline Dubreuil",
+            "date": "2025-10-20"
+        },
+        "article19": {
+            "id": 19,
+            "title": "Les transports autonomes et leur futur écologique",
+            "description": "Les véhicules autonomes représentent l'une des innovations les plus prometteuses dans le domaine des transports...",
+            "author": "François Garnier",
+            "date": "2025-11-18"
+        },
+        "article20": {
+            "id": 20,
+            "title": "L'impact du recyclage des véhicules sur l'environnement",
+            "description": "Le recyclage des véhicules en fin de vie joue un rôle important dans la réduction de l'empreinte écologique de l'industrie automobile...",
+            "author": "Mélanie Lefèvre",
+            "date": "2025-12-10"
+        },
+        "article21": {
+            "id": 21,
+            "title": "Le futur des taxis volants électriques : mythe ou réalité ?",
+            "description": "Les taxis volants électriques, également connus sous le nom de eVTOL (Electric Vertical Take-Off and Landing), représentent un rêve futuriste qui pourrait devenir une réalité...",
+            "author": "Élodie Martin",
+            "date": "2025-12-20"
+        },
+        "article22": {
+            "id": 22,
+            "title": "L'impact des véhicules autonomes sur l'économie du transport",
+            "description": "L'avènement des véhicules autonomes ne va pas seulement transformer la manière dont nous nous déplaçons, mais aussi bouleverser l'économie du secteur des transports...",
+            "author": "Marc Leclerc",
+            "date": "2025-12-25"
+        },
+        "article23": {
+            "id": 23,
+            "title": "Les carburants synthétiques : une alternative viable aux énergies fossiles ?",
+            "description": "Les carburants synthétiques, également appelés e-carburants, pourraient offrir une alternative potentiellement neutre en carbone aux carburants fossiles traditionnels...",
+            "author": "Sophie Chevalier",
+            "date": "2025-12-30"
+        },
+        "article24": {
+            "id": 24,
+            "title": "Les infrastructures vertes pour soutenir la mobilité électrique",
+            "description": "Le succès de la transition vers la mobilité électrique dépend en grande partie de la mise en place d'infrastructures vertes adéquates...",
+            "author": "Henri Dupuis",
+            "date": "2025-12-31"
+        },
+        "article25": {
+            "id": 25,
+            "title": "Les véhicules à hydrogène : défis et opportunités",
+            "description": "Les véhicules à hydrogène offrent une alternative prometteuse aux voitures électriques à batterie, surtout pour les longs trajets et les véhicules lourds...",
+            "author": "Alice Dubois",
+            "date": "2025-12-31"
+        }
+     }
     }
   }
+  

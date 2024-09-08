@@ -9,8 +9,188 @@
       "heroTxt": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus nemo sapiente facere culpa laudantium sequi, quo sunt non enim! Sequi odit ipsa sed consectetur libero ab officiis aperiam eos est."
     },
     "Blog": {
-        "blogLink": "Acceder au blog"
+        "blogLink": "see all"
     },
+    "blog": {
+    "blogLink": "see all",
+    "articles": {
+        "article1": {
+        "id": 1,
+        "title": "The Impact of Electric Cars on the Environment",
+        "description": "Electric cars play a crucial role in reducing greenhouse gas emissions, but their environmental impact is not zero...",
+        "author": "Jean Dupont",
+        "date": "2022-01-15"
+        },
+        "article2": {
+        "id": 2,
+        "title": "Innovations in Green Transportation",
+        "description": "The transportation industry is rapidly transforming thanks to innovations in green technologies...",
+        "author": "Marie Martin",
+        "date": "2022-05-20"
+        },
+        "article3": {
+        "id": 3,
+        "title": "The Future of Hydrogen in the Automotive Industry",
+        "description": "Hydrogen is often touted as the fuel of the future, capable of revolutionizing the automotive industry and reducing dependence on fossil fuels...",
+        "author": "Luc Leroy",
+        "date": "2022-09-05"
+        },
+        "article4": {
+        "id": 4,
+        "title": "The Best Hybrid Cars of 2024",
+        "description": "Hybrid cars continue to evolve, combining internal combustion engines with electric motors to offer a more sustainable transportation solution...",
+        "author": "Sophie Petit",
+        "date": "2022-12-01"
+        },
+        "article5": {
+        "id": 5,
+        "title": "Shared Mobility: A Solution for Sustainable Cities",
+        "description": "Shared mobility is becoming increasingly popular in major cities worldwide as a means to reduce congestion and carbon emissions...",
+        "author": "Pierre Blanc",
+        "date": "2023-03-10"
+        },
+        "article6": {
+        "id": 6,
+        "title": "Challenges in Producing Eco-Friendly Batteries",
+        "description": "The production of batteries for electric vehicles presents significant environmental and ethical challenges...",
+        "author": "Elise Dupuis",
+        "date": "2023-06-25"
+        },
+        "article7": {
+        "id": 7,
+        "title": "How to Reduce Your Vehicle's Carbon Footprint",
+        "description": "Reducing your vehicle's carbon footprint doesn't always mean switching to an electric model...",
+        "author": "Nicolas Moreau",
+        "date": "2023-09-30"
+        },
+        "article8": {
+        "id": 8,
+        "title": "The Rise of Electric Bikes in Urban Environments",
+        "description": "Electric bikes, or e-bikes, are revolutionizing urban mobility, offering a green and practical alternative to cars and public transport...",
+        "author": "Claire Richard",
+        "date": "2023-11-15"
+        },
+        "article9": {
+        "id": 9,
+        "title": "Autonomous Cars: An Ecological Revolution?",
+        "description": "Autonomous cars, also known as driverless vehicles, could transform not only the way we move but also their impact on the environment...",
+        "author": "Julien Fabre",
+        "date": "2024-02-05"
+        },
+        "article10": {
+        "id": 10,
+        "title": "The Importance of Charging Infrastructure for Electric Vehicles",
+        "description": "A well-developed charging infrastructure is crucial for the widespread adoption of electric vehicles (EVs)...",
+        "author": "Laura Moulin",
+        "date": "2024-05-10"
+        },
+        "article11": {
+        "id": 11,
+        "title": "Solar Cars: Myth or Reality?",
+        "description": "Solar cars have long been seen as a futuristic technology, but they are starting to become a tangible reality thanks to recent advances...",
+        "author": "Antoine Lambert",
+        "date": "2024-08-20"
+        },
+        "article12": {
+        "id": 12,
+        "title": "How Can Public Transport Become More Eco-Friendly?",
+        "description": "Public transport plays a crucial role in reducing greenhouse gas emissions by decreasing the number of private vehicles on the road...",
+        "author": "Isabelle Girard",
+        "date": "2024-10-25"
+        },
+        "article13": {
+        "id": 13,
+        "title": "Connected Cars and Their Impact on Energy Efficiency",
+        "description": "Connected cars, equipped with advanced communication technology and sensors, are transforming not just the driving experience but also have a significant impact on energy efficiency...",
+        "author": "Marc Dubois",
+        "date": "2025-01-10"
+        },
+        "article14": {
+        "id": 14,
+        "title": "New CO2 Emissions Regulations in Europe",
+        "description": "The new European CO2 emissions regulations aim to encourage a faster transition to low-emission and zero-emission vehicles...",
+        "author": "Émilie Roche",
+        "date": "2025-03-15"
+        },
+        "article15": {
+        "id": 15,
+        "title": "Alternatives to Fossil Fuels for Transportation",
+        "description": "Finding alternatives to fossil fuels has become a priority to reduce greenhouse gas emissions and mitigate climate change...",
+        "author": "Vincent Perrin",
+        "date": "2025-05-30"
+        },
+        "article16": {
+        "id": 16,
+        "title": "Carpooling: A Green and Economical Solution",
+        "description": "Carpooling is increasingly being recognized as a viable solution for reducing urban congestion and greenhouse gas emissions...",
+        "author": "Caroline Bernard",
+        "date": "2025-07-12"
+        },
+        "article17": {
+        "id": 17,
+        "title": "How Car Manufacturers Are Adapting to Climate Change",
+        "description": "Faced with climate change, car manufacturers are being forced to rethink their production and design models...",
+        "author": "Paul Mercier",
+        "date": "2025-09-05"
+        },
+        "article18": {
+        "id": 18,
+        "title": "The Benefits of Eco-Friendly Tires for Cars",
+        "description": "Eco-friendly tires, designed to reduce rolling resistance, are becoming an essential component of modern vehicles...",
+        "author": "Aline Dubreuil",
+        "date": "2025-10-20"
+        },
+        "article19": {
+        "id": 19,
+        "title": "Autonomous Transport and Its Future Ecological Value",
+        "description": "Autonomous vehicles are one of the most promising innovations in the field of transport, with the potential to significantly reduce the environmental impact of road traffic...",
+        "author": "François Garnier",
+        "date": "2025-11-18"
+        },
+        "article20": {
+        "id": 20,
+        "title": "The Impact of Vehicle Recycling on the Environment",
+        "description": "The recycling of end-of-life vehicles plays an important role in reducing the environmental footprint of the automotive industry...",
+        "author": "Mélanie Lefèvre",
+        "date": "2025-12-10"
+        },
+        "article21": {
+        "id": 21,
+        "title": "The Future of Electric Flying Taxis: Myth or Reality?",
+        "description": "Electric flying taxis, also known as eVTOL (Electric Vertical Take-Off and Landing), are considered a dream for the future, but they could become a reality...",
+        "author": "Élodie Martin",
+        "date": "2025-12-20"
+        },
+        "article22": {
+        "id": 22,
+        "title": "The Impact of Autonomous Vehicles on the Transport Economy",
+        "description": "The advent of autonomous vehicles will not only change the way we move but also disrupt the economy of the transport sector...",
+        "author": "Marc Leclerc",
+        "date": "2025-12-25"
+        },
+        "article23": {
+        "id": 23,
+        "title": "Synthetic Fuels: A Viable Alternative to Fossil Energy?",
+        "description": "Synthetic fuels, also known as e-fuels, could provide a potentially carbon-neutral alternative to traditional fossil fuels...",
+        "author": "Sophie Chevalier",
+        "date": "2025-12-30"
+        },
+        "article24": {
+        "id": 24,
+        "title": "Green Infrastructure to Support Electric Mobility",
+        "description": "The success of the transition to electric mobility largely depends on the establishment of adequate green infrastructure...",
+        "author": "Henri Dupuis",
+        "date": "2025-12-31"
+        },
+        "article25": {
+        "id": 25,
+        "title": "Hydrogen Vehicles: Challenges and Opportunities",
+        "description": "Hydrogen vehicles offer a promising alternative to battery electric cars, especially for long-distance trips and heavy vehicles...",
+        "author": "Alice Dubois",
+        "date": "2025-12-31"
+        }
+    }
+  },
     "Footer": {
       "foot": "Foot foot"
     }
