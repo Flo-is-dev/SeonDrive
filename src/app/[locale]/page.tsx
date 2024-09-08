@@ -1,9 +1,7 @@
 "use client";
 
-import { useTranslations } from 'next-intl';
 import Hero from '@/components/common/Hero';
 import Footer from "@/components/common/Footer";
-import { Link } from '@/i18n/routing';
 
 import Header from "@/components/layout/Header";
 import Lang from "@/components/layout/Lang";
@@ -12,6 +10,7 @@ import Credits from "@/components/common/Credits";
 import GlobalStyles from "@/styles/GlobaleStyles";
 import styled from "styled-components";
 import Image from "next/image";
+import About from '@/components/common/About';
 
 const HeaderLayout = styled.header`
   padding: 1rem;
@@ -26,6 +25,19 @@ const HeaderLayout = styled.header`
 const Nav = styled.nav`
   flex: 1;
 `;
+const BrandDiv = styled.div`
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  gap: 1rem;
+`;
+
+const Brand = styled.span`
+  color:white;
+  font-size:2.5rem;
+  font-weight:700;
+  font-family:  monospace, Verdana, sans-serif;
+`;
 
 const FooterLayout = styled.footer`
   min-height: 350px;
@@ -36,7 +48,6 @@ const FooterLayout = styled.footer`
 
 
 export default function HomePage() {
-  const t = useTranslations('HomePage');
   
   return (
     
@@ -46,19 +57,22 @@ export default function HomePage() {
           <Nav>
             <Header />
           </Nav>
-          <Image
+          <BrandDiv>
+            <Image
             src="/logo-seondrive.png"
             width={60}
             height={60}
             alt="SeonDrive Logo"
-          />
+            />
+            <Brand>SeonDrive</Brand>
+          </BrandDiv>
+          
           <Lang />
         </HeaderLayout>
         
-        <Hero />
-      <h1>{t('title')}</h1>
-      <Link href="/about">{t('about')}</Link>
-      <Footer />
+            <Hero />
+            <About />
+
         <FooterLayout>
           <Footer />
           <Credits />
