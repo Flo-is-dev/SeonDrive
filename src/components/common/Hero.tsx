@@ -1,6 +1,6 @@
 "use client"
 import styled from "styled-components";
-
+import { useTranslations } from 'next-intl';
 
 const Section = styled.section`
   background: url("/home/hero-bg.jpg") center/cover;
@@ -20,13 +20,15 @@ const Section = styled.section`
 `;
 
 const Hero = () => {
+    const t = useTranslations('HomePage');
 
   return (
     <Section>
-        <h1>italy</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quisquam qui architecto quia magni harum assumenda sit aliquid neque mollitia!</p>
+        <h1>{t('heroTitle')}</h1>
+        <p>{t('heroTxt')}</p>
         
     </Section>
   )
 }
 export default Hero
+
