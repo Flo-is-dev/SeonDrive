@@ -29,11 +29,15 @@ const GlobalStyles = createGlobalStyle`
   }
   
   h1 , h2 {
-    font-family: var(--font-Edgar), monospace;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
   }
 
   a {
     color: inherit;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  nav a, footer a {
     text-decoration: none;
   }
 

@@ -11,6 +11,9 @@ import GlobalStyles from "@/styles/GlobaleStyles";
 import styled from "styled-components";
 import Image from "next/image";
 import About from '@/components/common/About';
+import Blog from '@/components/common/Blog';
+import Subscribe from '@/components/common/Subscribe';
+import Promo from '@/components/common/Promo';
 
 const HeaderLayout = styled.header`
   padding: 1rem;
@@ -70,9 +73,14 @@ export default function HomePage() {
           <Lang />
         </HeaderLayout>
         
-            <Hero />
-            <About />
-
+            <main>
+                <Hero />
+                <About />
+                <Promo />
+                <Blog filtered={true} />
+                <Subscribe/>
+            </main>
+            
         <FooterLayout>
           <Footer />
           <Credits />

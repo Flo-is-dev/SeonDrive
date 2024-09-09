@@ -6,9 +6,190 @@
     },
     "HomePage": {
       "heroTitle": "意大利的豪华汽车租赁",
+      "btnRent": "立即出租",
       "heroTxt": "该公司本身是一家非常成功的公司。这是那些赞美追随者的错，因为没有人明智地对待痛苦！她讨厌被跟踪，但她会摆脱办公室的职责来追求他们。"
     },
     "Footer": {
       "foot": "Foot foot"
+    },
+    "blog": {
+    "blogLink": "查看全部",
+        "articles" : {
+        "article1": {
+        "id": 1,
+        "title": "电动汽车对环境的影响",
+        "description": "电动汽车在减少温室气体排放方面起着重要作用，但其环境影响并非零...",
+        "author": "Jean Dupont",
+        "date": "2022-01-15"
+        },
+        "article2": {
+        "id": 2,
+        "title": "生态交通的创新",
+        "description": "得益于生态技术的创新，交通行业正在迅速转型...",
+        "author": "Marie Martin",
+        "date": "2022-05-20"
+        },
+        "article3": {
+        "id": 3,
+        "title": "氢在汽车行业的未来",
+        "description": "氢通常被认为是未来的燃料，有能力彻底改变汽车行业并减少对化石燃料的依赖...",
+        "author": "Luc Leroy",
+        "date": "2022-09-05"
+        },
+        "article4": {
+        "id": 4,
+        "title": "2024年最佳混合动力车",
+        "description": "混合动力车不断发展，将内燃机与电动机相结合，提供更可持续的交通解决方案...",
+        "author": "Sophie Petit",
+        "date": "2022-12-01"
+        },
+        "article5": {
+        "id": 5,
+        "title": "共享出行：可持续城市的解决方案",
+        "description": "共享出行在世界各地的大城市中越来越受欢迎，作为减少交通拥堵和碳排放的一种方式...",
+        "author": "Pierre Blanc",
+        "date": "2023-03-10"
+        },
+        "article6": {
+        "id": 6,
+        "title": "生产环保电池的挑战",
+        "description": "电动汽车电池的生产带来了重大的环境和道德挑战...",
+        "author": "Elise Dupuis",
+        "date": "2023-06-25"
+        },
+        "article7": {
+        "id": 7,
+        "title": "如何减少汽车的碳足迹",
+        "description": "减少汽车的碳足迹并不一定要换成电动汽车...",
+        "author": "Nicolas Moreau",
+        "date": "2023-09-30"
+        },
+        "article8": {
+        "id": 8,
+        "title": "电动自行车在城市环境中的兴起",
+        "description": "电动自行车或称e-bike正在改变城市的移动方式，提供了一种比汽车和公共交通更环保和实用的替代选择...",
+        "author": "Claire Richard",
+        "date": "2023-11-15"
+        },
+        "article9": {
+        "id": 9,
+        "title": "自动驾驶汽车：一种环保革命？",
+        "description": "自动驾驶汽车，也被称为无人驾驶汽车，不仅可能改变我们的出行方式，还可能改变它们对环境的影响...",
+        "author": "Julien Fabre",
+        "date": "2024-02-05"
+        },
+        "article10": {
+        "id": 10,
+        "title": "电动汽车充电基础设施的重要性",
+        "description": "发达的充电基础设施对于电动汽车（EV）的普及至关重要...",
+        "author": "Laura Moulin",
+        "date": "2024-05-10"
+        },
+        "article11": {
+        "id": 11,
+        "title": "太阳能汽车：神话还是现实？",
+        "description": "太阳能汽车长期以来被认为是一种未来技术，但随着最近的进步，它们开始成为一个可实现的现实...",
+        "author": "Antoine Lambert",
+        "date": "2024-08-20"
+        },
+        "article12": {
+        "id": 12,
+        "title": "如何使公共交通更环保？",
+        "description": "公共交通在减少私家车数量和减少温室气体排放方面发挥着重要作用...",
+        "author": "Isabelle Girard",
+        "date": "2024-10-25"
+        },
+        "article13": {
+        "id": 13,
+        "title": "联网汽车及其对能源效率的影响",
+        "description": "配备先进通信技术和传感器的联网汽车不仅改变了驾驶体验，还对能源效率产生了重要影响...",
+        "author": "Marc Dubois",
+        "date": "2025-01-10"
+        },
+        "article14": {
+        "id": 14,
+        "title": "欧洲的CO2排放新规定",
+        "description": "新的欧洲CO2排放法规旨在促进向低排放和零排放车辆的更快过渡...",
+        "author": "Émilie Roche",
+        "date": "2025-03-15"
+        },
+        "article15": {
+        "id": 15,
+        "title": "交通的化石燃料替代品",
+        "description": "寻找化石燃料的替代品已成为减少温室气体排放和缓解气候变化的优先事项...",
+        "author": "Vincent Perrin",
+        "date": "2025-05-30"
+        },
+        "article16": {
+        "id": 16,
+        "title": "拼车：一种绿色经济的解决方案",
+        "description": "拼车越来越被认为是一种减少城市交通拥堵和温室气体排放的可行解决方案...",
+        "author": "Caroline Bernard",
+        "date": "2025-07-12"
+        },
+        "article17": {
+        "id": 17,
+        "title": "汽车制造商如何适应气候变化",
+        "description": "面对气候变化，汽车制造商必须重新考虑他们的生产和设计模式...",
+        "author": "Paul Mercier",
+        "date": "2025-09-05"
+        },
+        "article18": {
+        "id": 18,
+        "title": "环保轮胎的优势",
+        "description": "为了减少滚动阻力而设计的环保轮胎正在成为现代车辆的一个重要组成部分...",
+        "author": "Aline Dubreuil",
+        "date": "2025-10-20"
+        },
+        "article19": {
+        "id": 19,
+        "title": "自动驾驶交通及其未来的生态价值",
+        "description": "自动驾驶汽车是交通领域最有前景的创新之一，有可能显著减少道路交通对环境的影响...",
+        "author": "François Garnier",
+        "date": "2025-11-18"
+        },
+        "article20": {
+        "id": 20,
+        "title": "车辆回收对环境的影响",
+        "description": "废旧车辆的回收在减少汽车行业的环境足迹方面起着重要作用...",
+        "author": "Mélanie Lefèvre",
+        "date": "2025-12-10"
+        },
+        "article21": {
+        "id": 21,
+        "title": "电动飞行出租车的未来：神话还是现实？",
+        "description": "电动飞行出租车，也称为eVTOL（电动垂直起降），被认为是一个梦想的未来，但它有可能成为现实...",
+        "author": "Élodie Martin",
+        "date": "2025-12-20"
+        },
+        "article22": {
+        "id": 22,
+        "title": "自动驾驶汽车对运输经济的影响",
+        "description": "自动驾驶汽车的到来不仅会改变我们的出行方式，还会颠覆运输行业的经济...",
+        "author": "Marc Leclerc",
+        "date": "2025-12-25"
+        },
+        "article23": {
+        "id": 23,
+        "title": "合成燃料：化石能源的可行替代品吗？",
+        "description": "合成燃料，也称为e-燃料，可能提供一种传统化石燃料的潜在碳中性替代品...",
+        "author": "Sophie Chevalier",
+        "date": "2025-12-30"
+        },
+        "article24": {
+        "id": 24,
+        "title": "支持电动出行的绿色基础设施",
+        "description": "向电动出行的转变在很大程度上取决于适当的绿色基础设施的建设...",
+        "author": "Henri Dupuis",
+        "date": "2025-12-31"
+        },
+        "article25": {
+        "id": 25,
+        "title": "氢燃料汽车：挑战与机遇",
+        "description": "氢燃料汽车为长途旅行和重型车辆提供了一种很有前途的替代电动汽车的方案...",
+        "author": "Alice Dubois",
+        "date": "2025-12-31"
+        }
+    }
     }
   }

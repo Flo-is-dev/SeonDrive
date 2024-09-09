@@ -4,7 +4,7 @@ const notfound = () => {
   return (
     <html>
         <body>
-             <div style={{color:'black'}}>ERROR  404 , pas de page</div>
+             <div style={{color:'black'}}>ERROR COCO 404 , pas de page mon COCO</div>
         </body>
        
     </html>
