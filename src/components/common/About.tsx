@@ -40,7 +40,10 @@ const ImgContainer = styled.div`
     div:has(img):nth-child(1) img {
         object-fit: cover;
        height: 100% !important;
-      
+       width: 100%; 
+       height: 100%; 
+       max-width: 100%; 
+       max-height: 100%; 
     }
     div:has(img):last-child {
         grid-area: ro; 
@@ -49,6 +52,10 @@ const ImgContainer = styled.div`
         object-fit: cover;
         border-radius:20px;
        height: 100% !important;
+       width: auto; 
+       height: 100%; 
+       max-width: 100%; 
+       max-height: 100%; 
 
     }
 `;
@@ -84,7 +91,6 @@ const About = () => {
                 width={400}
                 height={300}
                 alt="Picture of the author"
-                layout="responsive"
                 />
             </div>
             <TxtCard>
@@ -97,7 +103,6 @@ const About = () => {
                     width={500}
                     height={500}
                     alt="Picture of the author"
-                    layout="responsive"
                 />     
             </div>
            

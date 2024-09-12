@@ -20,11 +20,23 @@ const Section = styled.section`
   }
 `;
 
+const BlogCardSection = styled.div`
+   margin: 4rem auto; 
+   display: grid; 
+   grid-template-columns: repeat(3,1fr); 
+   gap: 3rem
+
+`;
+
 const BlogCardContainer = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
+`;
+
+const TxtContainer = styled.div`
+  flex:1
 `;
 
 const ImageContainer = styled.div`
@@ -33,10 +45,11 @@ const ImageContainer = styled.div`
   width: 100%;
   margin-bottom: 1rem;
   min-height: 170px;
+  flex:2;
 
   img {
     object-fit: cover;
-    width: auto; 
+    width: 100%; 
     height: 100%; 
     max-width: 100%; 
     max-height: 100%; 
@@ -73,7 +86,7 @@ const Arrow = styled.div`
     }
 `;
 
-interface BlogProps {
+    interface BlogProps {
     filtered: boolean;
   }
 
@@ -89,9 +102,10 @@ const Blog: React.FC<BlogProps> = ({filtered}) => {
     <Section>
       <h2>Blog</h2>
       <Link href={`/${locale}/blog`}>{t('blogLink')}</Link>
-      <div style={{ margin: "4rem auto", display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: "3rem" }}>
+      <BlogCardSection >
         {translatedArticles.map((article, index) => {
           const link = `/${locale}/blog/${article.id}`; 
+            //   Permet de limiter le nombre d'article à 3 ou full
           if (filtered) {
             if (article.id < translatedArticles.length - 2) {
             return null;  
@@ -113,12 +127,15 @@ const Blog: React.FC<BlogProps> = ({filtered}) => {
                     <FontAwesomeIcon icon={faArrowRight} size="lg" />
                 </Arrow>
               </ImageContainer>
-              <h2>{article.title}</h2>
-              <Link href={link} style={{ marginTop: "auto" }}>See Article</Link>
+              <TxtContainer>
+                <h2>{article.title}</h2>
+                <Link href={link} style={{ marginTop: "auto" }}>{t('blogLink')}</Link>
+              </TxtContainer>
+              
             </BlogCardContainer>
           );
         })}
-      </div>
+      </BlogCardSection>
     </Section>
   );
 };

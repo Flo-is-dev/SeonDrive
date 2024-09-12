@@ -35,7 +35,10 @@ const Section = styled.section`
   }
 
   img {
-    max-width:700px
+        width: auto; 
+       height: 100%; 
+       max-width: 100%; 
+       max-height: 100%; 
   }
 `;
 
@@ -65,7 +68,6 @@ const Promo = () => {
                 width={400}
                 height={300}
                 alt="Picture of the author"
-                layout="responsive"
                 />
         </div>
         
