@@ -29,15 +29,18 @@ const BlogCardContainer = styled.div`
 
 const ImageContainer = styled.div`
   position: relative;
-  height: 250px;
+  height: auto;
   width: 100%;
-  overflow: hidden;
-  border-radius: 18px;
   margin-bottom: 1rem;
+  min-height: 170px;
 
   img {
     object-fit: cover;
-    height: 100% !important;
+    width: auto; 
+    height: 100%; 
+    max-width: 100%; 
+    max-height: 100%; 
+    border-radius: 18px;
   }
 `;
 
@@ -87,7 +90,7 @@ const Blog: React.FC<BlogProps> = ({filtered}) => {
       <h2>Blog</h2>
       <Link href={`/${locale}/blog`}>{t('blogLink')}</Link>
       <div style={{ margin: "4rem auto", display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: "3rem" }}>
-        {translatedArticles.map((article) => {
+        {translatedArticles.map((article, index) => {
           const link = `/${locale}/blog/${article.id}`; 
           if (filtered) {
             if (article.id < translatedArticles.length - 2) {
@@ -103,7 +106,7 @@ const Blog: React.FC<BlogProps> = ({filtered}) => {
                   width={400}
                   height={300}
                   alt={article.title}
-                  layout="responsive"
+                  priority={index === 0}  // Ajoute la propriété `priority` pour la première image
                 />
                 <Time dateTime={article.date}>{article.date}</Time>
                 <Arrow>
