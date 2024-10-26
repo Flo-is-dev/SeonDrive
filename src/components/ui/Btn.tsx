@@ -1,19 +1,22 @@
-
 import Link from "next/link";
 import styled from "styled-components";
 
 const Button = styled.div`
- background: var(--primary-champagne);
- padding: 10px 22px;
-    width: fit-content;
-    border-radius: 20px;
-  
+ 
+width: fit-content;
 
-  a {
+  a {background-color: var(--primary-champagne);
+    padding: 10px 22px;
+    border-radius: 20px;
     text-decoration:none;  
     font-weight: 400;
     color:black;
+
+    &:hover {
+        background-color: #ffdfd0;
+    }
   }
+
 `;
 
 interface BtnProps {

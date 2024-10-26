@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 const Section = styled.section`
-  min-height: 60vh;
+  min-height: 500px;
   padding: 4rem 8rem;
 
   h2 {
