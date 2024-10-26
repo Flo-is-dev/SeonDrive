@@ -1,0 +1,13 @@
+# *
+User-agent: *
+Allow: /
+
+# *
+User-agent: *
+Disallow: /admin/
+
+# Host
+Host: https://www.seondrive.com
+
+# Sitemaps
+Sitemap: https://www.seondrive.com/sitemap.xml

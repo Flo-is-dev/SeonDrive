@@ -27,8 +27,6 @@ align-items:center;
 gap:40px;
 `
 
-
-
 const UserCarousel = () => {
   return (
     <CarouselContainer>
