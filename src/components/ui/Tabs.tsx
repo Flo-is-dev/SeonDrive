@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Image from "next/image";
 
 interface TabsProps {
   className?: string;
@@ -20,7 +21,7 @@ const Tabs: React.FC<TabsProps> = ({ className }) => {
     <div className={className}>
       <div className="tab-buttons">
         {tabsData.map((obj, index) => (
-          <button key={index} onClick={() => setSelectedTab(index)}>
+          <button key={index} onClick={() => setSelectedTab(index)}  className={selectedTab === index ? "active" : ""}>
             {tabsData[index].title}
           </button>
         ))}
@@ -51,7 +52,14 @@ const Tabs: React.FC<TabsProps> = ({ className }) => {
             <input type="text" placeholder='12:25 am' />
         </div>
         
-        <a href="">Book Now</a>
+        <a href="">
+        <Image
+                src="/icons/calendar.png"
+                width={30}
+                height={30}
+                alt="Picture of the author"
+                />
+                Book Now</a>
       </div>
     </div>
   );

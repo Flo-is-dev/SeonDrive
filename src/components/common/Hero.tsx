@@ -12,9 +12,12 @@ const Section = styled.section`
 
   h1 {
     color: white;
-    font-size: clamp(2rem,6vw,4.5rem);
+    font-size: clamp(2rem,5vw,4.5rem);
     width: 60%;
+    font-weight: 500;
     text-wrap: pretty;
+    margin-bottom:3rem;
+    line-height:65px;
   }
   > p {
     color: white;
@@ -36,7 +39,7 @@ const StyledTabs = styled(Tabs)`
     height: 100%;
     margin-top:10px;
     border-radius: 8px;
-    padding: 1rem 0rem;
+    padding: .5rem 0rem;
     display: flex;
     justify-content:space-between;
     align-items:center;
@@ -48,7 +51,7 @@ const StyledTabs = styled(Tabs)`
     strong {
         color: #b7b7b7;
         font-weight:400;
-        font-size:.8rem;
+        font-size:1rem;
     }
 
     > div {
@@ -73,6 +76,8 @@ const StyledTabs = styled(Tabs)`
     input, input:focus-visible {
         border: none;
         outline: none;
+        font-weight:500;
+        font-size:.9rem;
     }
 
     > a {
@@ -80,13 +85,25 @@ const StyledTabs = styled(Tabs)`
         border-radius: 8px;
         height:100%;
         padding-inline: 2rem;
-        margin-right: 1rem;
+        margin-right: .5rem;
         width: fit content;
         display: flex;
         justify-content:center;
         align-items:center;
         flex-direction:column;
         text-decoration:none;
+        font-weight:500;
+        font-size: 1rem;
+
+
+        &:hover {
+        background-color: #F4C6A4;
+
+        }
+
+        img {
+            margin-left:10px;
+        }
     }
   }
 
@@ -95,12 +112,18 @@ const StyledTabs = styled(Tabs)`
 
     button {
         padding:8px 18px;
+        font-size:1rem;
         border-radius:4px;
         border:none;
         margin-right:10px;
-        background: white;
+        background: #202020;
+        color: white;
         font-weight:400;
         cursor: pointer;
+    }
+    button.active {
+      background: white;
+      color: black;
     }
   }
 `;

@@ -44,7 +44,7 @@ export default function LocalSwitcher() {
   };
 
   return (
-    <div style={{width:"140px",marginLeft:"auto"}}>
+    <div style={{width:"160px",marginLeft:"auto"}}>
         <Select 
         instanceId="language-switcher"  // Ajoute un ID statique ici
         defaultValue={options.find(option => option.value === localActive)}

@@ -14,7 +14,7 @@ import About from '@/components/common/About';
 import Blog from '@/components/common/Blog';
 import Subscribe from '@/components/common/Subscribe';
 import Promo from '@/components/common/Promo';
-import UserCarousel from '@/components/common/Carousel';
+import UserCarousel from '@/components/common/UserCarousel';
 
 const HeaderLayout = styled.header`
   padding: 1rem;
