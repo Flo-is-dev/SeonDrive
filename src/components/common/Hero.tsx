@@ -2,12 +2,13 @@
 import styled from "styled-components";
 import { useTranslations } from 'next-intl';
 import Btn from "../ui/Btn";
+import Tabs from "../ui/Tabs";
 
 const Section = styled.section`
   background: url("/home/hero-bg-copie.jpg") center/cover;
   height:100vh;
   padding:8rem  4rem;
-  /* position: relative; */
+  position: relative;
 
   h1 {
     color: white;
@@ -15,10 +16,92 @@ const Section = styled.section`
     width: 60%;
     text-wrap: pretty;
   }
-  p {
+  > p {
     color: white;
     max-width:400px;
     margin:100px 0px 0px auto;
+  }
+`;
+
+const StyledTabs = styled(Tabs)`
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 90%;
+  height: 100px;
+
+  .tab-content {
+    background: white;
+    height: 100%;
+    margin-top:10px;
+    border-radius: 8px;
+    padding: 1rem 0rem;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+
+    > * {
+        /* flex:1; */
+    }
+
+    strong {
+        color: #b7b7b7;
+        font-weight:400;
+        font-size:.8rem;
+    }
+
+    > div {
+        position:relative;
+        padding-inline:1.5rem;
+        width:fit-content;
+    }
+
+    > div:nth-child(n+2):after {
+            content:"";
+            position: absolute;
+            border-radius: 4px;
+            top: 50%;
+            left: 0%;
+            transform: translate(0%,-50%);
+            height:100%;
+            width: 1px;
+            background-color:#b7b7b7;
+
+    }
+
+    input, input:focus-visible {
+        border: none;
+        outline: none;
+    }
+
+    > a {
+        background-color: #F4C6A4;
+        border-radius: 8px;
+        height:100%;
+        padding-inline: 2rem;
+        margin-right: 1rem;
+        width: fit content;
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        text-decoration:none;
+    }
+  }
+
+  .tab-buttons {
+   
+
+    button {
+        padding:8px 18px;
+        border-radius:4px;
+        border:none;
+        margin-right:10px;
+        background: white;
+        font-weight:400;
+        cursor: pointer;
+    }
   }
 `;
 
@@ -33,7 +116,8 @@ const Hero = () => {
         </div>
         
         <p>{t('heroTxt')}</p>
-        
+
+        <StyledTabs />
     </Section>
   )
 }
