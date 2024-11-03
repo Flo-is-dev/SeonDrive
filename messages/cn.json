@@ -1,0 +1,304 @@
+{
+  "navigation": {
+    "about": "关于",
+    "vehicules": "车辆",
+    "blog": "消息",
+    "contacts": "联系方式",
+    "chooseLanguage": "选择您的语言"
+  },
+  "HomePage": {
+    "heroTitle": "意大利的豪华汽车租赁",
+    "btnRent": "立即出租",
+    "heroTxt": "SeonDrive不仅仅是一个汽车租赁服务，它是一种全新的旅行方式，专为热爱奢华和环境责任的人而设计。我们精选的高端车辆融合了技术与优雅，为客户提供独特的驾驶体验。"
+  },
+  "TabForm": {
+    "pickUp": "接送地址",
+    "pickUpTxt": "起点: 地址, 机场...",
+    "dropOff": "下车地址",
+    "dropOffTxt": "按距离，按小时，固定...",
+    "pickUpDate": "接送日期",
+    "pickUpDateTxt": "2023年4月19日",
+    "pickUpDateTime": "接送时间",
+    "pickUpDateTimeTxt": "上午12:25",
+    "input": "立即预订"
+  },
+  "AboutUs": {
+    "AboutUs": "关于我们",
+    "AboutUsTxt": "SeonDrive不仅仅是一个汽车租赁服务，它是一种全新的旅行方式，专为热爱奢华和环境责任的人而设计。我们精选的高端车辆融合了技术与优雅，为客户提供独特的驾驶体验。每一次预订都是探索之旅的邀请，无论是城市行驶还是更长的旅程，您都可以放心享受驾驶的乐趣。在SeonDrive，卓越的服务和环保承诺是我们宗旨的核心。",
+    "10years": "+10年",
+    "experience": "经验"
+  },
+  "Promo": {
+    "offerTitle": "最佳优惠",
+    "offer": "宾利飞驰 每天400美元",
+    "day": "天"
+  },
+  "UserCarousel": {
+    "title": "车辆",
+    "subtitle": "探索我们目前最受欢迎的车辆"
+  },
+  "carsCarousel": [
+    {
+      "id": 1,
+      "name": "迈凯伦 720S",
+      "price": "420美元/天",
+      "image": "/cars-nobg/Mclaren_PNG43.webp"
+    },
+    {
+      "id": 2,
+      "name": "宾利 Continental GT V8",
+      "price": "380美元/天",
+      "image": "/cars-nobg/bentley.webp"
+    },
+    {
+      "id": 3,
+      "name": "劳斯莱斯 Spectre",
+      "price": "400美元/天",
+      "image": "/cars-nobg/rr.webp"
+    },
+    {
+      "id": 4,
+      "name": "法拉利",
+      "price": "380美元/天",
+      "image": "/cars-nobg/la-ferrari.webp"
+    },
+    {
+      "id": 5,
+      "name": "迈凯伦 720S",
+      "price": "420美元/天",
+      "image": "/cars-nobg/Mclaren_PNG43.webp"
+    },
+    {
+      "id": 6,
+      "name": "宾利 Continental GT V8",
+      "price": "380美元/天",
+      "image": "/cars-nobg/bentley.webp"
+    },
+    {
+      "id": 7,
+      "name": "劳斯莱斯 Spectre",
+      "price": "400美元/天",
+      "image": "/cars-nobg/rr.webp"
+    },
+    {
+      "id": 8,
+      "name": "法拉利",
+      "price": "380美元/天",
+      "image": "/cars-nobg/la-ferrari.webp"
+    }
+  ],
+  "blogpage": {
+    "heroTitle": "探索高端环保出行的未来",
+    "heroTxt": "在SeonDrive，我们的使命是重新定义豪华概念，以环保责任为核心。我们的文章探讨塑造未来出行方式的趋势、技术和可持续解决方案。",
+    "searchInput": "搜索新闻",
+    "btnSearch": "搜索"
+  },
+  "Subscribe": {
+    "sub1": "订阅并享受 20% 折扣",
+    "sub2": " 您的首次租赁。",
+    "submit": "提交"
+  },
+  "Footer": {
+    "ForRenters": "租赁指南",
+    "AboutUs": "关于我们",
+    "Howitworks": "服务流程",
+    "Ourfleet": "我们的车队",
+    "FAQ": "常见问题",
+    "Contacts": "联系方式",
+    "Locations": "位置",
+    "Resources": "资源",
+    "MediaBlog": "媒体与博客",
+    "Partners": "合作伙伴",
+    "Privacypolicy": "隐私政策",
+    "Cookiespolicy": "Cookie 政策",
+    "Legalinformation": "法律信息",
+    "Helpcenter": "帮助中心",
+    "ContactUs": "联系我们",
+    "MondaySunday": "星期一 - 星期日",
+    "8:00": "上午 8:00 - 下午 5:00",
+    "Hotline": "服务热线",
+    "Email": "电子邮件",
+    "copyright": "© 2024 SeonDrive 有限公司。保留所有权利"
+  },
+  "blog": {
+    "title": "博客",
+    "blogLink": "查看全部",
+    "articlePage": " 每页文章数",
+    "previous": "上一页",
+    "next": "下一页",
+    "FollowUs": "关注我们",
+    "Instagram": "Instagram",
+    "Youtube": "YouTube",
+    "Twitter": "Twitter",
+    "articles": {
+      "article1": {
+        "id": 1,
+        "title": "电动汽车对环境的影响",
+        "description": "电动汽车在减少温室气体排放方面起着重要作用，但其环境影响并非零...",
+        "author": "Jean Dupont",
+        "date": "2022-01-15"
+      },
+      "article2": {
+        "id": 2,
+        "title": "生态交通的创新",
+        "description": "得益于生态技术的创新，交通行业正在迅速转型...",
+        "author": "Marie Martin",
+        "date": "2022-05-20"
+      },
+      "article3": {
+        "id": 3,
+        "title": "氢在汽车行业的未来",
+        "description": "氢通常被认为是未来的燃料，有能力彻底改变汽车行业并减少对化石燃料的依赖...",
+        "author": "Luc Leroy",
+        "date": "2022-09-05"
+      },
+      "article4": {
+        "id": 4,
+        "title": "2024年最佳混合动力车",
+        "description": "混合动力车不断发展，将内燃机与电动机相结合，提供更可持续的交通解决方案...",
+        "author": "Sophie Petit",
+        "date": "2022-12-01"
+      },
+      "article5": {
+        "id": 5,
+        "title": "共享出行：可持续城市的解决方案",
+        "description": "共享出行在世界各地的大城市中越来越受欢迎，作为减少交通拥堵和碳排放的一种方式...",
+        "author": "Pierre Blanc",
+        "date": "2023-03-10"
+      },
+      "article6": {
+        "id": 6,
+        "title": "生产环保电池的挑战",
+        "description": "电动汽车电池的生产带来了重大的环境和道德挑战...",
+        "author": "Elise Dupuis",
+        "date": "2023-06-25"
+      },
+      "article7": {
+        "id": 7,
+        "title": "如何减少汽车的碳足迹",
+        "description": "减少汽车的碳足迹并不一定要换成电动汽车...",
+        "author": "Nicolas Moreau",
+        "date": "2023-09-30"
+      },
+      "article8": {
+        "id": 8,
+        "title": "电动自行车在城市环境中的兴起",
+        "description": "电动自行车或称e-bike正在改变城市的移动方式，提供了一种比汽车和公共交通更环保和实用的替代选择...",
+        "author": "Claire Richard",
+        "date": "2023-11-15"
+      },
+      "article9": {
+        "id": 9,
+        "title": "自动驾驶汽车：一种环保革命？",
+        "description": "自动驾驶汽车，也被称为无人驾驶汽车，不仅可能改变我们的出行方式，还可能改变它们对环境的影响...",
+        "author": "Julien Fabre",
+        "date": "2024-02-05"
+      },
+      "article10": {
+        "id": 10,
+        "title": "电动汽车充电基础设施的重要性",
+        "description": "发达的充电基础设施对于电动汽车（EV）的普及至关重要...",
+        "author": "Laura Moulin",
+        "date": "2024-05-10"
+      },
+      "article11": {
+        "id": 11,
+        "title": "太阳能汽车：神话还是现实？",
+        "description": "太阳能汽车长期以来被认为是一种未来技术，但随着最近的进步，它们开始成为一个可实现的现实...",
+        "author": "Antoine Lambert",
+        "date": "2024-08-20"
+      },
+      "article12": {
+        "id": 12,
+        "title": "如何使公共交通更环保？",
+        "description": "公共交通在减少私家车数量和减少温室气体排放方面发挥着重要作用...",
+        "author": "Isabelle Girard",
+        "date": "2024-10-25"
+      },
+      "article13": {
+        "id": 13,
+        "title": "联网汽车及其对能源效率的影响",
+        "description": "配备先进通信技术和传感器的联网汽车不仅改变了驾驶体验，还对能源效率产生了重要影响...",
+        "author": "Marc Dubois",
+        "date": "2025-01-10"
+      },
+      "article14": {
+        "id": 14,
+        "title": "欧洲的CO2排放新规定",
+        "description": "新的欧洲CO2排放法规旨在促进向低排放和零排放车辆的更快过渡...",
+        "author": "Émilie Roche",
+        "date": "2025-03-15"
+      },
+      "article15": {
+        "id": 15,
+        "title": "交通的化石燃料替代品",
+        "description": "寻找化石燃料的替代品已成为减少温室气体排放和缓解气候变化的优先事项...",
+        "author": "Vincent Perrin",
+        "date": "2025-05-30"
+      },
+      "article16": {
+        "id": 16,
+        "title": "拼车：一种绿色经济的解决方案",
+        "description": "拼车越来越被认为是一种减少城市交通拥堵和温室气体排放的可行解决方案...",
+        "author": "Caroline Bernard",
+        "date": "2025-07-12"
+      },
+      "article17": {
+        "id": 17,
+        "title": "汽车制造商如何适应气候变化",
+        "description": "面对气候变化，汽车制造商必须重新考虑他们的生产和设计模式...",
+        "author": "Paul Mercier",
+        "date": "2025-09-05"
+      },
+      "article18": {
+        "id": 18,
+        "title": "环保轮胎的优势",
+        "description": "为了减少滚动阻力而设计的环保轮胎正在成为现代车辆的一个重要组成部分...",
+        "author": "Aline Dubreuil",
+        "date": "2025-10-20"
+      },
+      "article19": {
+        "id": 19,
+        "title": "自动驾驶交通及其未来的生态价值",
+        "description": "自动驾驶汽车是交通领域最有前景的创新之一，有可能显著减少道路交通对环境的影响...",
+        "author": "François Garnier",
+        "date": "2025-11-18"
+      },
+      "article20": {
+        "id": 20,
+        "title": "车辆回收对环境的影响",
+        "description": "废旧车辆的回收在减少汽车行业的环境足迹方面起着重要作用...",
+        "author": "Mélanie Lefèvre",
+        "date": "2025-12-10"
+      },
+      "article21": {
+        "id": 21,
+        "title": "电动飞行出租车的未来：神话还是现实？",
+        "description": "电动飞行出租车，也称为eVTOL（电动垂直起降），被认为是一个梦想的未来，但它有可能成为现实...",
+        "author": "Élodie Martin",
+        "date": "2025-12-20"
+      },
+      "article22": {
+        "id": 22,
+        "title": "自动驾驶汽车对运输经济的影响",
+        "description": "自动驾驶汽车的出现不仅将改变我们的出行方式，还将撼动运输行业的经济效益。由于不再需要人类驾驶员，运输成本将大大降低；由于减少了人为失误造成的事故，安全性也将得到提高。然而，这一发展也带来了经济上的挑战，包括全球数百万个驾驶工作岗位的流失。运输公司、出租车公司和汽车共享平台必须迅速适应这种模式转变。此外，支持自动驾驶汽车所需的基础设施，如交通管理系统和电动汽车充电网络，将需要大量投资。城市和政府需要在规划和监管这个新的交通时代方面发挥积极作用，确保以公平和可持续的方式分享利益。",
+        "author": "Marc Leclerc",
+        "date": "2025-12-25"
+      },
+      "article23": {
+        "id": 23,
+        "title": "合成燃料：化石能源的可行替代品吗？",
+        "description": "合成燃料（也称为电子燃料）可以提供一种潜在的碳中和替代品，替代传统的化石燃料。合成燃料是利用电解产生的氢和捕获的二氧化碳制成的，这意味着它们可以在现有的内燃机中燃烧，而无需进行重大改装。这使它们成为航空、航运和重型车辆等难以电气化行业的一个有吸引力的选择。然而，生产合成燃料的高成本和生产所需的能源仍然是采用这种燃料的主要障碍。要使电子燃料成为一种可行的替代品，需要技术进步和可再生能源产量的增加。如果能克服这些挑战，合成燃料将在减少二氧化碳排放和向更清洁能源的未来过渡方面发挥至关重要的作用。",
+        "author": "Sophie Chevalier",
+        "date": "2025-12-30"
+      },
+      "article24": {
+        "id": 24,
+        "title": "支持电动出行的绿色基础设施",
+        "description": "向电动交通的成功转型在很大程度上取决于能否提供充足的绿色基础设施。这不仅包括广泛的充电点网络，还包括将可再生能源纳入充电过程。在公共场所、公司停车场和服务站安装太阳能或风能充电点，对于减少电动汽车的总体碳足迹至关重要。此外，双向充电解决方案允许车辆在高峰时段向电网回送能量，有助于稳定电网并促进更有效地利用可再生资源。智能城市对这些基础设施进行投资，以创建一个可持续的交通生态系统，将电动汽车与公共交通系统和共享交通选择相结合。这类基础设施的发展对于促进电动汽车的广泛应用和确保未来交通更加清洁至关重要。",
+        "author": "Henri Dupuis",
+        "date": "2025-12-31"
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+[
+    {
+      "brand": "Tesla",
+      "model": "Model 3",
+      "year": 2021,
+      "fuelType": "électrique",
+      "transmission": "automatique",
+      "dailyRate": 150,
+      "availability": true,
+      "location": "Paris, France",
+      "CO2Emissions": 0,
+      "range": 420,
+      "energyConsumption": 15,
+      "features": ["GPS", "Sièges chauffants", "Climatisation", "Mode Autopilot"],
+      "imageURL": "https://example.com/images/tesla-model3.jpg",
+      "maintenanceStatus": "à jour"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Corolla",
+      "year": 2019,
+      "fuelType": "hybride",
+      "transmission": "manuelle",
+      "dailyRate": 80,
+      "availability": true,
+      "location": "Lyon, France",
+      "CO2Emissions": 95,
+      "range": 900,
+      "energyConsumption": null,
+      "features": ["GPS", "Climatisation", "Bluetooth"],
+      "imageURL": "https://example.com/images/toyota-corolla.jpg",
+      "maintenanceStatus": "à réviser"
+    }
+  ]
+  

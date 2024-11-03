@@ -1,0 +1,17 @@
+# netlify.toml
+
+[build]
+  command   = "npm run build"
+  publish   = ".next"
+  functions = "netlify/functions"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# La section des en-têtes est commentée car les en-têtes Cache-Control sont maintenant définis dans next.config.js
+# Si vous souhaitez définir des en-têtes supplémentaires, vous pouvez les décommenter et ajuster en conséquence.
+
+# [[headers]]
+#   for = "/:lang(fr|kr|cn)/*"
+#     [headers.values]
+#       Cache-Control = "public, max-age=3600"
